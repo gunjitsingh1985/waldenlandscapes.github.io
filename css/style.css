@@ -1,0 +1,525 @@
+
+
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/eb729a/000000000000000000010092/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/eb729a/000000000000000000010092/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/eb729a/000000000000000000010092/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/9b05f3/000000000000000000013365/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt";
+src:url("https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/cf3e4e/000000000000000000010095/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt-condensed";
+src:url("https://use.typekit.net/af/6f8764/000000000000000000012039/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/6f8764/000000000000000000012039/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/6f8764/000000000000000000012039/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt-condensed";
+src:url("https://use.typekit.net/af/082b7c/00000000000000000001203a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/082b7c/00000000000000000001203a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/082b7c/00000000000000000001203a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"futura-pt-condensed";
+src:url("https://use.typekit.net/af/64e0cf/00000000000000000001203d/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/64e0cf/00000000000000000001203d/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/64e0cf/00000000000000000001203d/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt-condensed";
+src:url("https://use.typekit.net/af/e6a9c1/00000000000000000001203e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/e6a9c1/00000000000000000001203e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/e6a9c1/00000000000000000001203e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt-bold";
+src:url("https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/053fc9/00000000000000003b9af1e4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"futura-pt-bold";
+src:url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/72575c/00000000000000003b9af1e5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+.tk-futura-pt { font-family: "futura-pt",sans-serif; }
+.tk-futura-pt-condensed { font-family: "futura-pt-condensed",sans-serif; }
+.tk-futura-pt-bold { font-family: "futura-pt-bold",sans-serif; }
+
+
+
+header {
+
+width: 100%;
+height: 1000px;
+background-image: url(../img/hero-image_flipped_cropped.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#logo
+{
+width: 20%;
+float: left;
+padding-left: 10%;
+margin-top: 10px;
+}
+
+nav{
+	width: 70%;
+	float: right;
+}
+
+#top-menu ul{
+
+list-style-type: none;
+text-align: right;
+padding-left: 10%;
+}
+
+#top-menu ul li{
+
+float: right;
+width: 150px;
+text-align: right;
+padding-right:20px;
+
+}
+
+#top-menu ul li a{
+text-decoration: none;
+font-family: Verdana;
+color: #FFFFFF ;
+font-size: 14px;
+font-weight: 700;
+}
+
+#caption{
+
+	width: 20%;
+	float: center;
+	padding-top: 10%;
+	padding-left: 20%;
+
+
+}
+
+#caption p {
+
+
+font-family: futura-pt;
+color: #ffffff;
+font-size: 60px;
+font-weight: 300;
+line-height: 62px;
+
+}
+
+
+#header-button{
+
+  background-color: transparent;
+  border: 2px solid white;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+
+font-family: Verdana;
+color: #ffffff;
+font-size: 18px;
+font-weight: 700;
+
+}
+
+#header-button a {
+
+  text-decoration: none;
+  font-family: Verdana;
+color: #ffffff;
+font-size: 18px;
+font-weight: 700;
+}
+
+#weird-rectangle
+{
+
+width: 100%;
+margin-left: 0px;
+
+}
+
+#service-section{
+width: 100%;
+background-image: url(../img/Rectangle.png);
+height: 538px;
+background-repeat: no-repeat;
+background-size: cover
+}
+
+#full-service{
+
+width:30%;
+height: 100%;
+float: left;
+margin-left: 10%;
+padding: 20px;
+	display: inline-block;
+
+}
+
+#full-service p {
+font-family: futura-pt;
+color: #1b211b;
+text-align:left;
+font-size: 60px;
+font-weight: 300;
+}
+
+#button2
+{
+
+background-color: transparent;
+  border: 2px solid #508b12;
+
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+
+font-family: Verdana;
+color: #508b12;
+font-size: 13px;
+font-weight: 700;
+
+}
+
+#subcontract{
+
+width:20%;
+height: 100%;
+float: right;
+margin-right: 10%;
+padding: 50px;
+display: inline-block;
+
+}
+
+#subcontract p {
+font-family: futura-pt;
+color: #1b211b;
+font-size: 60px;
+font-weight: 300;
+text-align: left;
+}
+
+#button3
+{
+
+background-color: transparent;
+  border: 2px solid #508b12;
+
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 60px;
+  cursor: pointer;
+  border-radius: 50px;
+font-family: Verdana;
+color: #508b12;
+font-size: 13px;
+font-weight: 700;
+
+}
+
+#advantages-caption{
+
+	width: 100%;
+	float: center;
+	text-align: center;
+	display: inline-block;
+
+}
+
+#advantages-caption h1{
+
+font-family: futura-pt;
+color: #1b211b;
+font-size: 68px;
+font-weight: 300;
+line-height: 70px;
+display: inline-block;
+}
+
+.icon-container
+{
+
+	display: flex;
+	justify-content: center;
+
+}
+
+#lower-opcost
+{
+width: 33.3%;
+height: 300px;
+float:left;
+margin-top: 100px;
+}
+
+#lower-opcost p
+{
+font-family: futura-pt;
+color: #1b211b;
+font-size: 30px;
+font-weight: 300;
+line-height: 36px;
+text-align: center;
+
+}
+
+#no-liability
+{
+width: 33.3%;
+height: 300px;
+float:left;
+margin-top: 100px;
+}
+
+
+#no-liability p
+{
+font-family: futura-pt;
+color: #1b211b;
+font-size: 30px;
+font-weight: 300;
+line-height: 36px;
+text-align: center;
+
+}
+	
+
+
+
+
+#efficiency
+{
+width: 33.3%;
+height: 300px;
+float:left;
+margin-top: 100px;
+}
+
+
+#efficiency p
+{
+font-family: futura-pt;
+color: #1b211b;
+font-size: 30px;
+font-weight: 300;
+line-height: 36px;
+text-align: center;
+margin-top: 55px;
+}
+
+#electric-mower
+{
+width:100%;
+height:791px;
+background-image: url(../img/electric-mower.png);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+
+
+#text-center
+{
+width: 50%;
+float:center;
+margin-top: 300px;
+margin-left: 100px;
+text-align: center;
+display: inline-block;
+}
+
+#text-center p
+{
+
+font-family: futura-pt;
+color: #ffffff;
+font-size: 76px;
+font-weight: 300;
+line-height: 89px;
+text-align: center;
+
+}
+
+#whodoweworkwith
+{
+width: 100%;
+text-align: center;
+display: inline-block;
+}
+
+
+#whodoweworkwith h1
+{
+
+font-family: futura-pt;
+color: #1b211b;
+font-size: 68px;
+font-weight: 300;
+line-height: 60px;
+
+}
+.icon-container_l
+{
+
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px;
+}
+
+
+.icon-container_r
+{
+
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px;
+
+}
+
+
+
+.work-category
+{
+width: 50%;
+height: 550px;
+float: left;
+margin-top: 30px;
+margin-left: 10px
+margin-right: 10px;
+margin-bottom: 10px;
+text-align: center;
+
+}
+
+.caption_l
+{
+
+	display: flex;
+	justify-content: flex-end;
+	margin:20px;
+	
+}
+
+.caption_r
+{
+	display: flex;
+	justify-content: flex-start;
+	margin: 20px;
+
+}
+
+.caption_l p
+{
+
+font-family: futura-pt;
+color: #1b211b;
+font-size: 30px;
+font-weight: 300;
+line-height: 48px;
+
+}
+
+
+
+.caption_r p
+{
+
+font-family: futura-pt;
+color: #1b211b;
+font-size: 30px;
+font-weight: 300;
+line-height: 48px;
+
+}
+
+footer
+{
+
+width:100%;
+height:100px;
+margin-top: 150px;
+background-image: url(../img/footer.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#bottom-logo
+{
+width:20%;
+float:left;
+padding-left: 10%;
+margin-top: 30px;
+}
+
+#connect-text
+{
+width: 30%;
+float: left;
+}
+
+#connect-text p
+{
+
+font-family: futura-pt;
+color: #ffffff;
+font-size: 34px;
+font-weight: 300;
+
+}
+#email
+{
+margin-top: 30px;
+width: 40%;
+float: right;
+}
+
+#email a
+{
+
+font-family: futura-pt;
+color: #ffffff;
+font-size: 34px;
+font-weight: 300;
+}
