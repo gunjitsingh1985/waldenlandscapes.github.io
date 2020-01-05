@@ -124,7 +124,7 @@ font-weight: 700;
 	float: center;
 	padding-top: 20vh;
 	padding-left: 20vw;
-	max-height: 300px;
+	max-height: 400px;
 
 }
 
@@ -133,9 +133,9 @@ font-weight: 700;
 
 font-family: futura-pt;
 color: #ffffff;
-font-size: 24;
+font-size: 7vh;
 font-weight: 300;
-line-height: 7vw;
+line-height: 7vh;
 
 }
 
