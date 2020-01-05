@@ -1,6 +1,3 @@
-
-
-
 @font-face {
 font-family:"futura-pt";
 src:url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/309dfe/000000000000000000010091/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
@@ -69,8 +66,9 @@ font-display:auto;font-style:italic;font-weight:700;
 
 header {
 
-width: 100%;
-height: 1000px;
+width: 100vw;
+height: 100vh;
+min-width: 800px;
 background-image: url(../img/hero-image_flipped_cropped.jpg);
 background-repeat: no-repeat;
 background-size: cover;
@@ -78,10 +76,17 @@ background-size: cover;
 
 #logo
 {
-width: 20%;
+width: 10vw;
 float: left;
-padding-left: 10%;
-margin-top: 10px;
+padding-left: 5vw;
+margin-top: 1vw;
+height: 5vh;
+}
+
+#logo img
+{
+	max-width: 100%
+	max-height: 100%;
 }
 
 nav{
@@ -93,15 +98,15 @@ nav{
 
 list-style-type: none;
 text-align: right;
-padding-left: 10%;
+padding-left: 5vw;
 }
 
 #top-menu ul li{
 
 float: right;
-width: 150px;
+width: 10vw;
 text-align: right;
-padding-right:20px;
+padding-right:2vw;
 
 }
 
@@ -109,17 +114,17 @@ padding-right:20px;
 text-decoration: none;
 font-family: Verdana;
 color: #FFFFFF ;
-font-size: 14px;
+font-size: 0.8vw;
 font-weight: 700;
 }
 
 #caption{
 
-	width: 20%;
+	width: 20vw;
 	float: center;
-	padding-top: 10%;
-	padding-left: 20%;
-
+	padding-top: 20vh;
+	padding-left: 20vw;
+	max-height: 400px;
 
 }
 
@@ -128,9 +133,9 @@ font-weight: 700;
 
 font-family: futura-pt;
 color: #ffffff;
-font-size: 60px;
+font-size: 7vh;
 font-weight: 300;
-line-height: 62px;
+line-height: 7vh;
 
 }
 
@@ -138,20 +143,20 @@ line-height: 62px;
 #header-button{
 
   background-color: transparent;
-  border: 2px solid white;
+  border: 0.8vh solid white;
   color: black;
-  padding: 10px 25px;
+  padding: 2vh 4vw;
   text-align: center;
   text-decoration: none;
   
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 100px;
 
-font-family: Verdana;
+/*font-family: Verdana;
 color: #ffffff;
-font-size: 18px;
-font-weight: 700;
+font-size: 7vh;
+font-weight: 700;*/
 
 }
 
@@ -160,7 +165,7 @@ font-weight: 700;
   text-decoration: none;
   font-family: Verdana;
 color: #ffffff;
-font-size: 18px;
+font-size: 2vh;
 font-weight: 700;
 }
 
@@ -173,91 +178,111 @@ margin-left: 0px;
 }
 
 #service-section{
-width: 100%;
-background-image: url(../img/Rectangle.png);
-height: 538px;
-background-repeat: no-repeat;
-background-size: cover
+width: 100vw;
+min-width: 800px;
+
+background-image: url(../img/Rectangle_crop.png);
+background-size: cover;
+}
+
+#service-container{
+
+	float: left;
+	width: 50%;
+}
+
+#button-container
+{
+
+	float: left;
+	width: 50%;
+	text-align: center;
 }
 
 #full-service{
 
-width:30%;
-height: 100%;
-float: left;
-margin-left: 10%;
-padding: 20px;
-	display: inline-block;
+padding: 10px;
+text-align:center;
 
 }
 
 #full-service p {
 font-family: futura-pt;
 color: #1b211b;
-text-align:left;
-font-size: 60px;
+text-align:center;
+font-size: 4vw;
 font-weight: 300;
+word-wrap: break-word;
 }
 
 #button2
 {
 
 background-color: transparent;
-  border: 2px solid #508b12;
+  border: 0.25vw  solid #508b12;
 
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   
-  margin: 4px 2px;
+      margin: 5vh;
+
   cursor: pointer;
   border-radius: 50px;
 
 font-family: Verdana;
 color: #508b12;
-font-size: 13px;
+font-size: 2vw;
 font-weight: 700;
 
 }
 
 #subcontract{
 
-width:20%;
-height: 100%;
-float: right;
-margin-right: 10%;
-padding: 50px;
-display: inline-block;
-
+padding: 10px;
+text-align: center;
 }
 
 #subcontract p {
 font-family: futura-pt;
 color: #1b211b;
-font-size: 60px;
+font-size: 4vw;
 font-weight: 300;
-text-align: left;
+text-align: center;
+
+word-wrap: break-word;
+
 }
 
 #button3
 {
 
 background-color: transparent;
-  border: 2px solid #508b12;
+  border: 0.25vw solid #508b12;
 
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  margin-top: 50px;
-  margin-left: 60px;
+  
+       margin: 5vh;
+
   cursor: pointer;
   border-radius: 50px;
+
 font-family: Verdana;
 color: #508b12;
-font-size: 13px;
+font-size: 2vw;
 font-weight: 700;
 
 }
+
+#advantages-section
+{
+width: 100vw;
+min-width: 800px;
+
+}
+
 
 #advantages-caption{
 
@@ -272,11 +297,35 @@ font-weight: 700;
 
 font-family: futura-pt;
 color: #1b211b;
-font-size: 68px;
+font-size: 6vw;
 font-weight: 300;
-line-height: 70px;
+line-height: 6vw;
 display: inline-block;
 }
+
+
+
+.advantage-container
+{
+	width: 33.3%;
+	float: left;
+
+}
+
+
+
+
+.advantage-txt-container
+{
+
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+
+
+
+
 
 .icon-container
 {
@@ -286,75 +335,35 @@ display: inline-block;
 
 }
 
-#lower-opcost
+
+.icon-container img
 {
-width: 33.3%;
-height: 300px;
-float:left;
-margin-top: 100px;
+	vertical-align: bottom;
 }
 
-#lower-opcost p
+.advantage-txt-container-subdiv
+{
+padding: 10px;
+text-align:center;
+}
+.advantage-txt-container-subdiv p
 {
 font-family: futura-pt;
 color: #1b211b;
-font-size: 30px;
+font-size: 2.5vw;
 font-weight: 300;
-line-height: 36px;
+line-height: 2.5vw;
 text-align: center;
 
 }
 
-#no-liability
-{
-width: 33.3%;
-height: 300px;
-float:left;
-margin-top: 100px;
-}
-
-
-#no-liability p
-{
-font-family: futura-pt;
-color: #1b211b;
-font-size: 30px;
-font-weight: 300;
-line-height: 36px;
-text-align: center;
-
-}
-	
-
-
-
-
-#efficiency
-{
-width: 33.3%;
-height: 300px;
-float:left;
-margin-top: 100px;
-}
-
-
-#efficiency p
-{
-font-family: futura-pt;
-color: #1b211b;
-font-size: 30px;
-font-weight: 300;
-line-height: 36px;
-text-align: center;
-margin-top: 55px;
-}
 
 #electric-mower
 {
-width:100%;
-height:791px;
+width: 100vw;
+min-width: 800px;
+min-height:200px;
 background-image: url(../img/electric-mower.png);
-background-repeat: no-repeat;
 background-size: cover;
 text-align: center;
 }
@@ -364,8 +373,8 @@ text-align: center;
 {
 width: 50%;
 float:center;
-margin-top: 300px;
-margin-left: 100px;
+margin-top: 10vh;
+margin-left: 10vw;
 text-align: center;
 display: inline-block;
 }
@@ -375,18 +384,20 @@ display: inline-block;
 
 font-family: futura-pt;
 color: #ffffff;
-font-size: 76px;
+font-size: 8vh;
 font-weight: 300;
-line-height: 89px;
+line-height: 9vh;
 text-align: center;
 
 }
 
+
+
 #whodoweworkwith
 {
 width: 100%;
-text-align: center;
-display: inline-block;
+min-width: 800px;
+
 }
 
 
@@ -395,82 +406,44 @@ display: inline-block;
 
 font-family: futura-pt;
 color: #1b211b;
-font-size: 68px;
+font-size: 6vw;
 font-weight: 300;
-line-height: 60px;
-
-}
-.icon-container_l
-{
-
-	display: flex;
-	justify-content: flex-end;
-	margin: 10px;
-}
-
-
-.icon-container_r
-{
-
-	display: flex;
-	justify-content: flex-start;
-	margin: 10px;
-
-}
-
-
-
-.work-category
-{
-width: 50%;
-height: 550px;
-float: left;
-margin-top: 30px;
-margin-left: 10px
-margin-right: 10px;
-margin-bottom: 10px;
+line-height: 6vw;
 text-align: center;
 
 }
 
-.caption_l
-{
 
-	display: flex;
-	justify-content: flex-end;
-	margin:20px;
-	
+
+
+
+
+
+
+.work-txt-container
+{
+	width: 48%;
+	float: left;
+	text-align: center;
 }
 
-.caption_r
-{
-	display: flex;
-	justify-content: flex-start;
-	margin: 20px;
 
+
+.work-txt-container-subdiv
+{
+padding: 10px;
+text-align:center;
 }
 
-.caption_l p
-{
 
+.work-txt-container-subdiv p
+{
 font-family: futura-pt;
 color: #1b211b;
-font-size: 30px;
+font-size: 2.5vw;
 font-weight: 300;
-line-height: 48px;
-
-}
-
-
-
-.caption_r p
-{
-
-font-family: futura-pt;
-color: #1b211b;
-font-size: 30px;
-font-weight: 300;
-line-height: 48px;
+line-height: 2.5vw;
+text-align: center;
 
 }
 
@@ -478,41 +451,110 @@ footer
 {
 
 width:100%;
-height:100px;
-margin-top: 150px;
-background-image: url(../img/footer.png);
-background-repeat: no-repeat;
-background-size: cover;
+min-width: 800px;
+
+background-color: #508b12;
+overflow: hidden;
+
 }
 
-#bottom-logo
+.footer-photo-container
 {
-width:20%;
-float:left;
-padding-left: 10%;
-margin-top: 30px;
+padding:20px;
 }
 
-#connect-text
+.footer-photo-container img
 {
-width: 30%;
-float: left;
+	width:50%;
 }
 
-#connect-text p
+
+
+.footer-container
+{
+
+	width: 33.3%;
+	float: left;
+	
+}
+
+
+.footer-text-container
+{
+width: 33.3%;
+	float: left;
+	text-align: center;
+
+}
+
+.footer-text-container-subdiv
+{
+padding: 10px;
+text-align:center;
+}
+
+.footer-text-container-subdiv p
 {
 
 font-family: futura-pt;
 color: #ffffff;
-font-size: 34px;
+font-size: 1.7vw;
+font-weight: 300;
+word-wrap: break-word;
+
+}
+
+
+.footer-text-container-subdiv a
+{
+
+font-family: futura-pt;
+color: #ffffff;
+font-size: 1.7vw;
+font-weight: 300;
+word-wrap: break-word;
+
+}
+
+
+
+
+
+
+#bottom-logo
+{
+width:10%;
+float:left;
+padding-left: 2%;
+margin-top: 10px;
+}
+
+#connect-text
+{
+width: 20%;
+float: left;
+margin-top: 1px;
+padding-left: 10%;
+
+}
+
+#connect-text h1
+{
+
+font-family: futura-pt;
+color: #ffffff;
+font-size: 2vw;
 font-weight: 300;
 
 }
 #email
 {
-margin-top: 30px;
-width: 40%;
+margin-top: 5vh;
+margin-right: 10px;
+width: 25%;
 float: right;
+text-align: center;
+
 }
 
 #email a
@@ -520,6 +562,8 @@ float: right;
 
 font-family: futura-pt;
 color: #ffffff;
-font-size: 34px;
+font-size: 1.7vw;
 font-weight: 300;
+word-wrap: break-word;
+
 }
